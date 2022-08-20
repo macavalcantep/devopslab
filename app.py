@@ -1,3 +1,4 @@
+# Corrigindo commit sem criar branch
 from flask import Flask
 from flask_wtf.csrf import CSRFProtect
 
@@ -21,3 +22,4 @@ def bad():
 
 if __name__ == '__main__':
     app.run()
+    
